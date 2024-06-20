@@ -174,6 +174,12 @@ public class UIInventory : MonoBehaviour
             selectedStatValue.text += selectedItem.consumables[i].value.ToString() + "\n";
         }
 
+        for (int i = 0; i < selectedItem.equipables.Length; i++)
+        {
+            selectedStatName.text += selectedItem.equipables[i].Type.ToString() + "\n";
+            selectedStatValue.text += selectedItem.equipables[i].value.ToString() + "\n";
+        }
+
         useButton.SetActive(selectedItem.type == ItemType.Consumable);
         equipButton.SetActive(selectedItem.type == ItemType.Equipable && !slots[index].equipped);
         unequipButton.SetActive(selectedItem.type == ItemType.Equipable && slots[index].equipped);
