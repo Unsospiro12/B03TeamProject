@@ -1,18 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CharacterManager_KYJ : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private static CharacterManager_KYJ instance;
+    public static CharacterManager_KYJ Instance
     {
-        
+        get
+        {
+            if (instance == null)
+            {
+                instance = new GameObject("CharacterManager").AddComponent<CharacterManager_KYJ>();
+            }
+            return instance;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public Player_KYJ Player
     {
-        
+        get { return _player; }
+        set { _player = value; }
+    }
+    private Player_KYJ _player;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            if (instance != this)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 }
