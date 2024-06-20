@@ -20,4 +20,8 @@ MonoBehaviour:
   canStack: 0
   maxStackAmount: 0
   consumables: []
-  equipables: []
+  equipables:
+  - Type: 0
+    value: 20
+  - Type: 1
+    value: 0
