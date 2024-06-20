@@ -43,17 +43,16 @@ public class UIInventory : MonoBehaviour
             slots[i] = slotPanel.GetChild(i).GetComponent<ItemSlot>();
             slots[i].index = i;
             slots[i].inventory = this;
+            slots[i].Clear();
         }
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        ClearSelectedItemWindow();
     }
 
     void ClearSelectedItemWindow()
     {
+        selectedItem = null;
+
         selectedItemName.text = string.Empty;
         selectedItemDescription.text = string.Empty;
         selectedStatName.text = string.Empty;

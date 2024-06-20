@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,6 +14,8 @@ public class Interaction : MonoBehaviour
 
     public GameObject curInteractGameObject;
     private IInteractable curInteractable;
+
+    public TextMeshProUGUI promptText;
 
     private void Update()
     {

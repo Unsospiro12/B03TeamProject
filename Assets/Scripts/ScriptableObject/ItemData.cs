@@ -17,11 +17,23 @@ public enum ConsumableType
     Mp
 }
 
-[Serializable]
+public enum EquipableType
+{
+    Atk,
+    Def
+}
 
+[Serializable]
 public class ItemDataConsumable
 {
     public ConsumableType Type;
+    public float value;
+}
+
+[Serializable]
+public class ItemDataEquipable
+{
+    public EquipableType Type;
     public float value;
 }
 
@@ -41,4 +53,7 @@ public class ItemData : ScriptableObject
 
     [Header("Consumable")]
     public ItemDataConsumable[] consumables;
+
+    [Header("Equipable")]
+    public ItemDataEquipable[] equipables;
 }
