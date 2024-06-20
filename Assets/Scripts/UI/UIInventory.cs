@@ -16,7 +16,6 @@ public class UIInventory : MonoBehaviour
     public TextMeshProUGUI selectedItemDescription;
     public TextMeshProUGUI selectedItemStatName;
     public TextMeshProUGUI selectedItemStatValue;
-
     public GameObject useButton;
     public GameObject equipButton;
     public GameObject unequipButton;
@@ -28,7 +27,17 @@ public class UIInventory : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        controller.inventory += Toggle;
+
+        inventoryWindow.SetActive(false);
+        slots = new ItemSlot[slotPanel.childCount];
+
+        for (int i = 0; i < slots.Length; i++)
+        {
+            slots[i] = slotPanel.GetChild(i).GetComponent<ItemSlot>();
+            slots[i].index = i;
+            slots[i].inventory = this;
+        }
     }
 
     // Update is called once per frame
