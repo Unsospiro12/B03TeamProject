@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 339244f2bd0b68148b8bf861241e0ca1, type: 3}
   m_Name: Item_Ax
   m_EditorClassIdentifier: 
-  displayName: 
-  description: 
+  displayName: "\uB3C4\uB07C"
+  description: ax
   type: 0
-  icon: {fileID: 0}
-  dropPrefab: {fileID: 0}
+  icon: {fileID: 21300000, guid: 60be931574a9c17468f13cdfa68e39ce, type: 3}
+  dropPrefab: {fileID: 3537403144083873228, guid: 8fae24b2dc4db354e99871360bd5e373, type: 3}
   canStack: 0
   maxStackAmount: 0
   consumable:
