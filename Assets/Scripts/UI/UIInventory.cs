@@ -27,6 +27,8 @@ public class UIInventory : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        controller = CharacterManager_KYJ.Instance.Player.controller;
+
         controller.inventory += Toggle;
 
         inventoryWindow.SetActive(false);
