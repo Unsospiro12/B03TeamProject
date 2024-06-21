@@ -20,6 +20,7 @@ public class UIInventory : MonoBehaviour
     public GameObject equipButton;
     public GameObject unequipButton;
     public GameObject dropButton;
+    public GameObject warningMSG;
 
     private PlayerController_KYJ controller;
     //private PlayerCondition condition;
@@ -107,7 +108,6 @@ public class UIInventory : MonoBehaviour
             CharacterManager_KYJ.Instance.Player.itemData = null;
         }
 
-        ThrowItem(data);
         CharacterManager_KYJ.Instance.Player.itemData = null;
     }
 
@@ -150,11 +150,6 @@ public class UIInventory : MonoBehaviour
         return null;
     }
 
-    void ThrowItem(ItemData data)
-    {
-        //Destroy(data.dropPrefab);
-    }
-
     public void SelectItem(int index)
     {
         if (slots[index].item == null) return;
@@ -184,5 +179,55 @@ public class UIInventory : MonoBehaviour
         equipButton.SetActive(selectedItem.type == ItemType.Equipable && !slots[index].equipped);
         unequipButton.SetActive(selectedItem.type == ItemType.Equipable && slots[index].equipped);
         dropButton.SetActive(true);
+    }
+
+    public void OnUseButton()
+    {
+        if (selectedItem.type == ItemType.Consumable)
+        {
+            for (int i = 0; i < selectedItem.consumables.Length; i++)
+            {
+                switch (selectedItem.consumables[i].Type)
+                {
+                    case ConsumableType.Hp:
+                        //체력회복
+                        break;
+                    case ConsumableType.Mp:
+                        //마나회복
+                        break;
+                }
+            }
+        }
+    }
+
+    public void OnDropButton()
+    {
+        warningMSG.SetActive(true);
+    }
+
+    public void YesButton()
+    {
+        RemoveSelectedItem();
+        warningMSG.SetActive(false);
+    }
+
+    public void NoButton()
+    {
+        warningMSG.SetActive(false);
+    }
+
+    void RemoveSelectedItem()
+    {
+        slots[selectedItemIndex].quantity--;
+
+        if (slots[selectedItemIndex].quantity <= 0 )
+        {
+            selectedItem = null;
+            slots[selectedItemIndex].item = null;
+            selectedItemIndex = -1;
+            ClearSelectedItemWindow();
+        }
+
+        UpdataUI();
     }
 }
