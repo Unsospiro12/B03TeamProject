@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6835071754503905761}
   - component: {fileID: 8753403797527588425}
-  - component: {fileID: 5845177870086914150}
+  - component: {fileID: 5273086565840911169}
   m_Layer: 7
   m_Name: Test_Potion
   m_TagString: Untagged
@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: dda44482ea4b57248b4fdba69b7f5822, type: 2}
---- !u!61 &5845177870086914150
-BoxCollider2D:
+--- !u!68 &5273086565840911169
+EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -79,19 +79,24 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00723958, y: 0.012185872}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.8698535, y: 0.8765682}
+  m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.4479127, y: -0.23439527}
+  - {x: -0.25093317, y: -0.46879053}
+  - {x: -0.020878315, y: -0.4666202}
+  - {x: 0.3220334, y: -0.09983492}
+  - {x: 0.44791222, y: 0.1302197}
+  - {x: 0.44574165, y: 0.31686783}
+  - {x: 0.2026658, y: 0.50785685}
+  - {x: 0.00082445145, y: 0.38631845}
+  - {x: -0.12505484, y: 0.25175786}
+  - {x: -0.41839743, y: -0.09346962}
+  - {x: -0.44843245, y: -0.23656559}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &7522074746114417091
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,12 +170,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: efd273d4fe6178c4481d3218d6e247d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 117b17facff65dc42b1b57deb7c21551, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.12, y: 5.12}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
