@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 7311791664186832775}
   - component: {fileID: 7420032965090425522}
   m_Layer: 7
-  m_Name: Test_Weapon
+  m_Name: Test_Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

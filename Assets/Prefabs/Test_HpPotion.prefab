@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8753403797527588425}
   - component: {fileID: 5273086565840911169}
   m_Layer: 7
-  m_Name: Test_Potion
+  m_Name: Test_HpPotion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
