@@ -20,6 +20,7 @@ public class UIInventory : MonoBehaviour
     public GameObject equipButton;
     public GameObject unequipButton;
     public GameObject dropButton;
+    public GameObject warningMSG;
 
     private PlayerController_KYJ controller;
     //private PlayerCondition condition;
@@ -201,7 +202,18 @@ public class UIInventory : MonoBehaviour
 
     public void OnDropButton()
     {
+        warningMSG.SetActive(true);
+    }
+
+    public void YesButton()
+    {
         RemoveSelectedItem();
+        warningMSG.SetActive(false);
+    }
+
+    public void NoButton()
+    {
+        warningMSG.SetActive(false);
     }
 
     void RemoveSelectedItem()
