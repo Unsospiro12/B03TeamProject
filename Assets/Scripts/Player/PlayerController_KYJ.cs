@@ -7,25 +7,39 @@ public class PlayerController_KYJ : MonoBehaviour
 {
     public Action inventory;
 
+    [Header("Movement")]
+    public float moveSpeed;
     private Vector2 moveDirection;
-    private float moveSpeed = 4f;
 
-    private void Update()
+    private Rigidbody2D rigidbody2D;
+
+    private void Awake()
     {
-        bool hasControl = (moveDirection != Vector2.zero);
-        if (hasControl)
-        {
-            transform.rotation = Quaternion.LookRotation(moveDirection);
-            transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
-        }
+        rigidbody2D = GetComponent<Rigidbody2D>();
+    }
+
+    private void FixedUpdate()
+    {
+        Move();
+    }
+
+    private void Move()
+    {
+        Vector3 dir = transform.up * moveDirection.y + transform.right * moveDirection.x;
+        dir *= moveSpeed;
+
+        rigidbody2D.velocity = dir;
     }
 
     public void OnMove(InputAction.CallbackContext context)
     {
-        Vector2 input = context.ReadValue<Vector2>();
-        if (input != null )
+        if (context.phase == InputActionPhase.Performed)
         {
-            moveDirection = new Vector3(input.x, input.y, 0f);
+            moveDirection = context.ReadValue<Vector2>();
+        }
+        else if (context.phase == InputActionPhase.Canceled)
+        {
+            moveDirection = Vector2.zero;
         }
     }
 
