@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using static UnityEditor.Timeline.Actions.MenuPriority;
 
 public class UIShop : MonoBehaviour
 {
@@ -20,6 +21,10 @@ public class UIShop : MonoBehaviour
 
     ItemData listItem;
     int listItemIndex = 0;
+
+    Money_KYJ money;
+    ItemObject itemObject;
+    UIInventory inventory;
 
     private void Start()
     {
@@ -90,5 +95,25 @@ public class UIShop : MonoBehaviour
         goldImage.SetActive(true);
         buyButton.SetActive(true);
         sellButton.SetActive(true);
+    }
+
+    public void MoneyCompareItem()
+    {
+        if (money.totalScore >= 20000)
+        {
+            CharacterManager_KYJ.Instance.Player.itemData = listItem;
+            CharacterManager_KYJ.Instance.Player.addItem?.Invoke();
+            Debug.Log("구매하였습니다.");
+        }
+        else
+        {
+            Debug.Log("소지금이 부족합니다.");
+        }
+    }
+
+    public void OnClickBuyButton()
+    {
+        MoneyCompareItem();
+
     }
 }

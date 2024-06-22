@@ -82,7 +82,7 @@ public class UIInventory : MonoBehaviour
         return inventoryWindow.activeInHierarchy;
     }
 
-    void AddItem()
+    public void AddItem()
     {
         ItemData data = CharacterManager_KYJ.Instance.Player.itemData;
 

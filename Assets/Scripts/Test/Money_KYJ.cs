@@ -5,15 +5,14 @@ using UnityEngine;
 
 public class Money_KYJ : MonoBehaviour
 {
-    public GameObject increaseBtn;
     public GameObject openShopBtn;
 
     public TextMeshProUGUI totalScoreTxt;
 
     public bool isCheck = false;
-    int totalScore = 0;
+    public int totalScore = 0;
 
-    public void AddScore(int score)
+    public void AddScore()
     {
         totalScore += 10000;
         totalScoreTxt.text = totalScore.ToString();
@@ -21,7 +20,7 @@ public class Money_KYJ : MonoBehaviour
 
     public void OnClickMoney()
     {
-        AddScore(0);
+        AddScore();
     }
 
     public void OnClickShop()
@@ -30,6 +29,7 @@ public class Money_KYJ : MonoBehaviour
         {
             openShopBtn.SetActive(true);
             isCheck = true;
+            Debug.Log("현재 소지금 : " + totalScore);
         }
         else
         {

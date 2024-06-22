@@ -9,7 +9,6 @@ public class ShopItemSlot : MonoBehaviour
 
     public Button button;
     public Image icon;
-    private Outline outline;
 
     public UIShop shop;
 
@@ -24,5 +23,6 @@ public class ShopItemSlot : MonoBehaviour
     public void OnClickButton()
     {
         shop.ShopListItem(index);
+        Debug.Log(item.buyPrice);
     }
 }
