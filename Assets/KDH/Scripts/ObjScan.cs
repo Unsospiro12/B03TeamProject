@@ -32,7 +32,7 @@ public class ObjScan : MonoBehaviour
         {
             isInteraction = false;
             talkIndex = 0;
-            Debug.Log(questManager.CheckQuest(idNumber));
+            questManager.CheckQuest(idNumber);
             return;
         }
 

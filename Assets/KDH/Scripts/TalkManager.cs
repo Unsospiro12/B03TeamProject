@@ -18,7 +18,6 @@ public class TalkManager : MonoBehaviour
 
     private void ObjScriptsData()
     {
-
         //talk
         talkData.Add(100, new string[] { "처음 보는 얼굴이군 :0", "이곳의 생활은 어떤가:0" });
         talkData.Add(1000, new string[] { "아무것도 들어있지 않다.:0 " });
@@ -39,8 +38,6 @@ public class TalkManager : MonoBehaviour
 
         portraitData.Add(1000, portraits[1]);
         portraitData.Add(2000, portraits[1]);
-
-
     }
 
     public string SendScripts(int idNumber, int talkIndex)
