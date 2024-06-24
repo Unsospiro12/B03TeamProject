@@ -6,16 +6,16 @@ using UnityEngine;
 public class QuestManager : MonoBehaviour
 {
     public int questID;
-    public int questActionIndex;
+    public int questActionNumber;
 
     Dictionary<int, QuestData> questList; 
     void Awake()
     {
         questList = new Dictionary<int, QuestData>();
-        sendData();
+        SendData();
     }
 
-    private void sendData()
+    private void SendData()
     {
         questList.Add(10, new QuestData("오브젝트 상호 작용 퀘스트" , new int[] {100 , 1000}));
         questList.Add(20, new QuestData(" 퀘스트 확인", new int[] { 0 }));
@@ -23,15 +23,15 @@ public class QuestManager : MonoBehaviour
 
     public int QuestTalkIndex(int idNumber)
     {
-        return questID + questActionIndex;
+        return questID + questActionNumber;
     }
 
     public string CheckQuest(int idNumber)
     {
-        if(idNumber == questList[questID].npcIDNumber[questActionIndex])
-        questActionIndex++;
+        if(idNumber == questList[questID].npcIDNumber[questActionNumber])
+        questActionNumber++;
 
-        if (questActionIndex == questList[questID].npcIDNumber.Length)
+        if (questActionNumber == questList[questID].npcIDNumber.Length)
             NextQuest();
 
         return questList[questID].questName;
@@ -39,6 +39,6 @@ public class QuestManager : MonoBehaviour
     void NextQuest()
     {
         questID += 10;
-        questActionIndex = 0;
+        questActionNumber = 0;
     }
 }
