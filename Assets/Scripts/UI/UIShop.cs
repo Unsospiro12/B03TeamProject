@@ -18,13 +18,15 @@ public class UIShop : MonoBehaviour
     public GameObject buyButton;
     public GameObject sellButton;
     public GameObject goldImage;
+    public GameObject cantBuyMsg;
+
+    public GameObject inventoryList;
 
     ItemData listItem;
+    UIInventory inventory;
     int listItemIndex = 0;
 
-    Money_KYJ money;
-    ItemObject itemObject;
-    UIInventory inventory;
+    public int gold = 0;
 
     private void Start()
     {
@@ -52,7 +54,7 @@ public class UIShop : MonoBehaviour
         listStatValue.text = string.Empty;
 
         buyButton.SetActive(false);
-        sellButton.SetActive(false);
+        sellButton.SetActive(true);
         goldImage.SetActive(false);
     }
 
@@ -94,26 +96,46 @@ public class UIShop : MonoBehaviour
 
         goldImage.SetActive(true);
         buyButton.SetActive(true);
-        sellButton.SetActive(true);
     }
 
     public void MoneyCompareItem()
     {
-        if (money.totalScore >= 20000)
+        if (gold >= listItem.buyPrice)
         {
+            gold -= listItem.buyPrice;
             CharacterManager_KYJ.Instance.Player.itemData = listItem;
             CharacterManager_KYJ.Instance.Player.addItem?.Invoke();
-            Debug.Log("구매하였습니다.");
+            Debug.Log("구매하였습니다." + gold);
         }
         else
         {
-            Debug.Log("소지금이 부족합니다.");
+            WarningMsg();
+            Debug.Log("소지금이 부족합니다." + gold);
         }
+    }
+
+    public void WarningMsg()
+    {
+        cantBuyMsg.SetActive(true);
+    }
+
+    public void YesBtn()
+    {
+        cantBuyMsg.SetActive(false);
     }
 
     public void OnClickBuyButton()
     {
         MoneyCompareItem();
+    }
 
+    public void OnClickSellButton()
+    {
+        inventoryList.SetActive(true);
+    }
+
+    public void OnClickExitButton()
+    {
+        inventoryList.SetActive(false);
     }
 }

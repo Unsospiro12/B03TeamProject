@@ -23,6 +23,5 @@ public class ShopItemSlot : MonoBehaviour
     public void OnClickButton()
     {
         shop.ShopListItem(index);
-        Debug.Log(item.buyPrice);
     }
 }
