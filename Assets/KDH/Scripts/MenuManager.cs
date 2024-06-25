@@ -14,10 +14,36 @@ public class MenuManager : MonoBehaviour
         if (Input.GetButtonDown("Cancel"))
         {
             if (menu.activeSelf)
+            {
                 menu.SetActive(false);
+                Time.timeScale = 1;
+            }
             else
+            {
                 menu.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
+    }
+
+    public void MenuButton()
+    {
+        if (menu.activeSelf)
+        {
+            menu.SetActive(false);
+            Time.timeScale = 1;
+        }
+        else
+        { 
+            menu.SetActive(true);
+            Time.timeScale = 0;
+        }
+    }
+
+    public void ReStartButton()
+    {
+        menu.SetActive(false);
+        Time.timeScale = 1;
     }
     public void TitileScene()
     {
