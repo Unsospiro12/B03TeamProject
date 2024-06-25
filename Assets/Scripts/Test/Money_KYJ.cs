@@ -47,6 +47,15 @@ public class Money_KYJ : MonoBehaviour
 
     public void OnClickInventory()
     {
+        if(isCheck == false)
+        {
         openInventory.SetActive(true);
+            isCheck = true;
+        }
+        else if(isCheck == true)
+        {
+            openInventory.SetActive(false);
+            isCheck = false;
+        }
     }
 }
