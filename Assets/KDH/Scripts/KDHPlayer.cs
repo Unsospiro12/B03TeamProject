@@ -74,7 +74,7 @@ public class KDHPlayer : PlayerController_KYJ
         }
         else
         {
-            anim.Play("Idle");
+            //anim.Play("Idle");
         }
     
         if (x == 1)
