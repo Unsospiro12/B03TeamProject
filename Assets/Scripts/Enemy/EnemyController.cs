@@ -12,8 +12,8 @@ public class EnemyController : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
+        ChangeDirection(); // 초기 방향 설정
     }
 
     void Update()
@@ -40,5 +40,11 @@ public class EnemyController : MonoBehaviour
     void MoveCharacter(Vector2 direction)
     {
         rb.MovePosition((Vector2)transform.position + (direction * speed * Time.deltaTime));
+    }
+    void ChangeDirection()
+    {
+        // 임의의 방향으로 변경
+        float angle = Random.Range(0f, 360f);
+        movement = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
     }
 }

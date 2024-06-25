@@ -10,7 +10,8 @@ public class EnemyHealth : MonoBehaviour
     private int currentHealth;
 
     public Image healthBar;  // UI 이미지 참조
-
+    public GameObject itemPrefab;
+    public Transform dropPosition;
     void Start()
     {
         currentHealth = maxHealth;
@@ -39,6 +40,29 @@ public class EnemyHealth : MonoBehaviour
     {
         // 적 사망 처리
         Debug.Log("Enemy Died");
+        StartCoroutine(DeathCoroutine());
+    }
+    IEnumerator DeathCoroutine()
+    {
+        // 3초 대기
+        yield return new WaitForSeconds(0f);
+
+        // 아이템 드랍
+        DropItem();
+
+        // 적 오브젝트 파괴
         Destroy(gameObject);
+    }
+    void DropItem()
+    {
+        if (itemPrefab != null)
+        {
+            Vector3 dropPos = transform.position;
+            if (dropPosition != null)
+            {
+                dropPos = dropPosition.position;
+            }
+            Instantiate(itemPrefab, dropPos, Quaternion.identity);
+        }
     }
 }

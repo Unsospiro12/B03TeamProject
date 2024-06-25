@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -139,10 +139,10 @@ TextureImporter:
       name: slime_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 392
-        width: 16
-        height: 12
+        x: 0
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: slime_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 392
-        width: 16
-        height: 12
+        x: 32
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: slime_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 392
-        width: 16
-        height: 11
+        x: 64
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: slime_3
       rect:
         serializedVersion: 2
-        x: 104
-        y: 392
-        width: 16
-        height: 11
+        x: 96
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: slime_4
       rect:
         serializedVersion: 2
-        x: 8
-        y: 360
-        width: 16
-        height: 12
+        x: 0
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: slime_5
       rect:
         serializedVersion: 2
-        x: 40
-        y: 360
-        width: 16
-        height: 12
+        x: 32
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: slime_6
       rect:
         serializedVersion: 2
-        x: 72
-        y: 360
-        width: 16
-        height: 11
+        x: 64
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: slime_7
       rect:
         serializedVersion: 2
-        x: 104
-        y: 360
-        width: 16
-        height: 11
+        x: 96
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: slime_8
       rect:
         serializedVersion: 2
-        x: 8
-        y: 328
-        width: 16
-        height: 12
+        x: 0
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: slime_9
       rect:
         serializedVersion: 2
-        x: 40
-        y: 328
-        width: 16
-        height: 12
+        x: 32
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: slime_10
       rect:
         serializedVersion: 2
-        x: 72
-        y: 328
-        width: 16
-        height: 11
+        x: 64
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: slime_11
       rect:
         serializedVersion: 2
-        x: 104
-        y: 328
-        width: 16
-        height: 11
+        x: 96
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +391,10 @@ TextureImporter:
       name: slime_12
       rect:
         serializedVersion: 2
-        x: 6
-        y: 296
-        width: 20
-        height: 10
+        x: 0
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +412,10 @@ TextureImporter:
       name: slime_13
       rect:
         serializedVersion: 2
-        x: 42
-        y: 296
-        width: 12
-        height: 16
+        x: 32
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,10 +433,10 @@ TextureImporter:
       name: slime_14
       rect:
         serializedVersion: 2
-        x: 73
-        y: 296
-        width: 14
-        height: 18
+        x: 64
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,10 +454,10 @@ TextureImporter:
       name: slime_15
       rect:
         serializedVersion: 2
-        x: 104
-        y: 296
-        width: 16
-        height: 15
+        x: 96
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,10 +475,10 @@ TextureImporter:
       name: slime_16
       rect:
         serializedVersion: 2
-        x: 136
-        y: 296
-        width: 16
-        height: 12
+        x: 128
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +496,10 @@ TextureImporter:
       name: slime_17
       rect:
         serializedVersion: 2
-        x: 168
-        y: 296
-        width: 16
-        height: 11
+        x: 160
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,10 +517,10 @@ TextureImporter:
       name: slime_18
       rect:
         serializedVersion: 2
-        x: 6
-        y: 264
-        width: 20
-        height: 10
+        x: 0
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,10 +538,10 @@ TextureImporter:
       name: slime_19
       rect:
         serializedVersion: 2
-        x: 42
-        y: 264
-        width: 12
-        height: 16
+        x: 32
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,10 +559,10 @@ TextureImporter:
       name: slime_20
       rect:
         serializedVersion: 2
-        x: 74
-        y: 264
-        width: 12
-        height: 18
+        x: 64
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +580,10 @@ TextureImporter:
       name: slime_21
       rect:
         serializedVersion: 2
-        x: 104
-        y: 264
-        width: 16
-        height: 15
+        x: 96
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -601,10 +601,10 @@ TextureImporter:
       name: slime_22
       rect:
         serializedVersion: 2
-        x: 136
-        y: 264
-        width: 16
-        height: 12
+        x: 128
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +622,10 @@ TextureImporter:
       name: slime_23
       rect:
         serializedVersion: 2
-        x: 168
-        y: 264
-        width: 16
-        height: 11
+        x: 160
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,10 +643,10 @@ TextureImporter:
       name: slime_24
       rect:
         serializedVersion: 2
-        x: 6
-        y: 232
-        width: 20
-        height: 10
+        x: 0
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -664,10 +664,10 @@ TextureImporter:
       name: slime_25
       rect:
         serializedVersion: 2
-        x: 42
-        y: 232
-        width: 12
-        height: 16
+        x: 32
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,10 +685,10 @@ TextureImporter:
       name: slime_26
       rect:
         serializedVersion: 2
-        x: 73
-        y: 232
-        width: 14
-        height: 18
+        x: 64
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,10 +706,10 @@ TextureImporter:
       name: slime_27
       rect:
         serializedVersion: 2
-        x: 104
-        y: 232
-        width: 16
-        height: 15
+        x: 96
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,10 +727,10 @@ TextureImporter:
       name: slime_28
       rect:
         serializedVersion: 2
-        x: 136
-        y: 232
-        width: 16
-        height: 12
+        x: 128
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -748,10 +748,10 @@ TextureImporter:
       name: slime_29
       rect:
         serializedVersion: 2
-        x: 168
-        y: 232
-        width: 16
-        height: 11
+        x: 160
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -769,10 +769,10 @@ TextureImporter:
       name: slime_30
       rect:
         serializedVersion: 2
-        x: 7
-        y: 200
-        width: 18
-        height: 10
+        x: 0
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -790,10 +790,10 @@ TextureImporter:
       name: slime_31
       rect:
         serializedVersion: 2
-        x: 39
-        y: 200
-        width: 18
-        height: 11
+        x: 32
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,10 +811,10 @@ TextureImporter:
       name: slime_32
       rect:
         serializedVersion: 2
-        x: 73
-        y: 207
-        width: 14
-        height: 13
+        x: 64
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -832,10 +832,10 @@ TextureImporter:
       name: slime_33
       rect:
         serializedVersion: 2
-        x: 105
-        y: 209
-        width: 14
-        height: 13
+        x: 96
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -853,10 +853,10 @@ TextureImporter:
       name: slime_34
       rect:
         serializedVersion: 2
-        x: 137
-        y: 206
-        width: 14
-        height: 12
+        x: 128
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -874,10 +874,10 @@ TextureImporter:
       name: slime_35
       rect:
         serializedVersion: 2
-        x: 167
-        y: 200
-        width: 18
-        height: 10
+        x: 160
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -895,10 +895,10 @@ TextureImporter:
       name: slime_36
       rect:
         serializedVersion: 2
-        x: 74
-        y: 200
-        width: 12
-        height: 5
+        x: 192
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -916,10 +916,10 @@ TextureImporter:
       name: slime_37
       rect:
         serializedVersion: 2
-        x: 106
-        y: 200
-        width: 12
-        height: 5
+        x: 0
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -937,10 +937,10 @@ TextureImporter:
       name: slime_38
       rect:
         serializedVersion: 2
-        x: 138
-        y: 200
-        width: 12
-        height: 5
+        x: 32
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -958,10 +958,10 @@ TextureImporter:
       name: slime_39
       rect:
         serializedVersion: 2
-        x: 199
-        y: 200
-        width: 18
-        height: 9
+        x: 64
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -979,10 +979,10 @@ TextureImporter:
       name: slime_40
       rect:
         serializedVersion: 2
-        x: 40
-        y: 168
-        width: 17
-        height: 11
+        x: 96
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1000,10 +1000,10 @@ TextureImporter:
       name: slime_41
       rect:
         serializedVersion: 2
-        x: 74
-        y: 168
-        width: 12
-        height: 20
+        x: 128
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1021,10 +1021,10 @@ TextureImporter:
       name: slime_42
       rect:
         serializedVersion: 2
-        x: 106
-        y: 178
-        width: 12
-        height: 12
+        x: 160
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1042,10 +1042,10 @@ TextureImporter:
       name: slime_43
       rect:
         serializedVersion: 2
-        x: 137
-        y: 174
-        width: 13
-        height: 12
+        x: 192
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1063,10 +1063,10 @@ TextureImporter:
       name: slime_44
       rect:
         serializedVersion: 2
-        x: 7
-        y: 168
-        width: 18
-        height: 10
+        x: 0
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1084,10 +1084,10 @@ TextureImporter:
       name: slime_46
       rect:
         serializedVersion: 2
-        x: 106
-        y: 168
-        width: 12
-        height: 5
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1105,10 +1105,10 @@ TextureImporter:
       name: slime_47
       rect:
         serializedVersion: 2
-        x: 138
-        y: 168
-        width: 12
-        height: 5
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1126,10 +1126,10 @@ TextureImporter:
       name: slime_48
       rect:
         serializedVersion: 2
-        x: 168
-        y: 168
-        width: 16
-        height: 10
+        x: 128
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1147,10 +1147,10 @@ TextureImporter:
       name: slime_49
       rect:
         serializedVersion: 2
-        x: 199
-        y: 168
-        width: 18
-        height: 9
+        x: 160
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1168,10 +1168,10 @@ TextureImporter:
       name: slime_50
       rect:
         serializedVersion: 2
-        x: 7
-        y: 136
-        width: 18
-        height: 10
+        x: 192
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1189,10 +1189,10 @@ TextureImporter:
       name: slime_51
       rect:
         serializedVersion: 2
-        x: 39
-        y: 136
-        width: 18
-        height: 11
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1210,10 +1210,10 @@ TextureImporter:
       name: slime_52
       rect:
         serializedVersion: 2
-        x: 73
-        y: 143
-        width: 14
-        height: 13
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1231,10 +1231,10 @@ TextureImporter:
       name: slime_53
       rect:
         serializedVersion: 2
-        x: 105
-        y: 145
-        width: 14
-        height: 13
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1252,10 +1252,10 @@ TextureImporter:
       name: slime_54
       rect:
         serializedVersion: 2
-        x: 137
-        y: 142
-        width: 14
-        height: 12
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1273,10 +1273,10 @@ TextureImporter:
       name: slime_55
       rect:
         serializedVersion: 2
-        x: 167
-        y: 136
-        width: 18
-        height: 10
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1294,10 +1294,10 @@ TextureImporter:
       name: slime_56
       rect:
         serializedVersion: 2
-        x: 74
-        y: 136
-        width: 12
-        height: 5
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1315,10 +1315,10 @@ TextureImporter:
       name: slime_57
       rect:
         serializedVersion: 2
-        x: 106
-        y: 136
-        width: 12
-        height: 5
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1336,10 +1336,10 @@ TextureImporter:
       name: slime_58
       rect:
         serializedVersion: 2
-        x: 138
-        y: 136
-        width: 12
-        height: 5
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1357,10 +1357,10 @@ TextureImporter:
       name: slime_59
       rect:
         serializedVersion: 2
-        x: 199
-        y: 136
-        width: 18
-        height: 9
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1378,10 +1378,10 @@ TextureImporter:
       name: slime_60
       rect:
         serializedVersion: 2
-        x: 9
-        y: 104
-        width: 14
-        height: 15
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1399,10 +1399,10 @@ TextureImporter:
       name: slime_61
       rect:
         serializedVersion: 2
-        x: 41
-        y: 104
-        width: 14
-        height: 18
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1420,10 +1420,10 @@ TextureImporter:
       name: slime_62
       rect:
         serializedVersion: 2
-        x: 72
-        y: 104
-        width: 16
-        height: 11
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1441,10 +1441,10 @@ TextureImporter:
       name: slime_63
       rect:
         serializedVersion: 2
-        x: 9
-        y: 72
-        width: 14
-        height: 14
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1462,10 +1462,10 @@ TextureImporter:
       name: slime_64
       rect:
         serializedVersion: 2
-        x: 42
-        y: 72
-        width: 13
-        height: 18
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1480,13 +1480,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_65
+      name: slime_45
       rect:
         serializedVersion: 2
-        x: 72
-        y: 72
-        width: 16
-        height: 11
+        x: 32
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1494,365 +1494,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89f99220d6dbfaa4798a33df8e2fa940
-      internalID: 431098598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_66
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 40
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7a03d1e950f77c4b8f920b2133b19b9
-      internalID: -478713245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_67
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 40
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68f23ef01aa31db49945ab9b95c5d964
-      internalID: 1730264107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_68
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 40
-        width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e63d92228532e9c469d704e14792f307
-      internalID: 1174095380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_69
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 8
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 988bd4c146a75db40a9c949e0992945b
-      internalID: -1047843639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_70
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 22
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed109e314340bab46a7a189f1cfa66c9
-      internalID: 1719940797
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_71
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 20
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8c671be682bfec498ee4f3433e83b18
-      internalID: -835171713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_72
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 20
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdfa415b7da1dbf47b7c7a08dd777697
-      internalID: -973859334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_73
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 9
-        width: 4
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae6f75bbb38270a4e927d44338c8e3cb
-      internalID: 1166716764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_74
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 8
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 140c5aff622f762459e32ec762c9bace
-      internalID: 2043673492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_75
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 9
-        width: 11
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd0058fd11db69b46993df2ad5ae68b0
-      internalID: 2034768603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_76
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 8
-        width: 5
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1a3ad9b2e2d05440b3a1b69c5e007d0
-      internalID: -1006824046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_77
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 8
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 768906079552ecf4fa68ccd583ce1384
-      internalID: -1321284503
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_78
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 9
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17a5bbd5a2ae62e4c9fa4d2c2deb9114
-      internalID: 1011814553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_79
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 168
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3e6ffcca3fdb7f4e93f705d48c99879
-      internalID: 68066945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_80
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 136
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6634e8ac5f261748963d777d777ecb5
-      internalID: -2048725285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_81
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 136
-        width: 14
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 798754981d40ada43b0e0189194996aa
-      internalID: -1673893348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_82
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 136
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa03bc803cc12c844a7eeeacfcc22f51
-      internalID: -2017780358
+      spriteID: 34954d68505258f44818dfcccd85eb61
+      internalID: 717350489
       vertices: []
       indices: 
       edges: []
@@ -1930,26 +1573,8 @@ TextureImporter:
       slime_62: -1857791918
       slime_63: 825529702
       slime_64: 513587953
-      slime_65: 431098598
-      slime_66: -478713245
-      slime_67: 1730264107
-      slime_68: 1174095380
-      slime_69: -1047843639
       slime_7: -1926188091
-      slime_70: 1719940797
-      slime_71: -835171713
-      slime_72: -973859334
-      slime_73: 1166716764
-      slime_74: 2043673492
-      slime_75: 2034768603
-      slime_76: -1006824046
-      slime_77: -1321284503
-      slime_78: 1011814553
-      slime_79: 832641686
       slime_8: 757000980
-      slime_80: 68066945
-      slime_81: -2048725285
-      slime_82: -1673893348
       slime_9: 114205332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
