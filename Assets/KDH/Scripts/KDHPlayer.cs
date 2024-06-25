@@ -13,6 +13,7 @@ public class KDHPlayer : MonoBehaviour
     SpriteRenderer spriter;
     public Animator anim;
     bool isXMove;
+    Vector2 moveVec;
 
     public ObjScan objScan;
 
@@ -33,13 +34,40 @@ public class KDHPlayer : MonoBehaviour
         bool yUp = Input.GetButtonUp("Vertical");
         bool yDown = Input.GetButtonDown("Vertical");
 
-        if (xDown)
+        if (xDown || yUp)
             isXMove = true;
-        else if (yDown)
+        else if (yDown || xUp)
             isXMove = false;
         else if (xUp || yUp)
             isXMove = x != 0;
-
+        
+        if (x != 0)
+        {
+            if (x > 0)
+            {
+                anim.Play("PlayerRightWalk");
+            }
+            else
+            {
+                anim.Play("PlayerLeftWalk");
+            }
+        }
+        else if (y != 0)
+        {
+            if (y > 0)
+            {
+                anim.Play("PlayerUpWalk");
+            }
+            else
+            {
+                anim.Play("PlayerDownWalk");
+            }
+        }
+        else
+        {
+            anim.Play("Idle");
+        }
+    
         if (x == 1)
             dir = Vector3.right;
         else if(x == -1)
