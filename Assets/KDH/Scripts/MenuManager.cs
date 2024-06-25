@@ -47,7 +47,7 @@ public class MenuManager : MonoBehaviour
     }
     public void TitileScene()
     {
-        SceneManager.LoadScene("타이틀화면"); // 병합하면 수정
+        SceneManager.LoadScene(0);
     }
 
     public void Save() // 병합하면  수정

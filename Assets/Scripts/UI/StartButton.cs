@@ -20,6 +20,6 @@ public class StartButton : MonoBehaviour
     IEnumerator LoadMainScene()
     {
         yield return new WaitForSecondsRealtime(2f);
-        SceneManager.LoadScene("GJM_MAP");
+        SceneManager.LoadScene(1);
     }
 }
