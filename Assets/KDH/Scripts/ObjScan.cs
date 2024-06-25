@@ -39,17 +39,13 @@ public class ObjScan : MonoBehaviour
         if(isNPC)
         {
             talk.text = talkData.Split(':')[0];
-
             portrait.sprite = talkManager.SendPortrait(idNumber, int.Parse(talkData.Split(':')[1]));
-
             portrait.color = new Color(1, 1, 1, 1);
         }
         else
         {
             talk.text = talkData.Split(':')[0];
-
             portrait.sprite = talkManager.SendPortrait(idNumber, int.Parse(talkData.Split(':')[1]));
-
             portrait.color = new Color(1, 1, 1, 1);
 
         }

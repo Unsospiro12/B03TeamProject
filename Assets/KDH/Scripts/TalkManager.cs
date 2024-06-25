@@ -20,17 +20,17 @@ public class TalkManager : MonoBehaviour
     {
         //talk
         talkData.Add(100, new string[] { "ó�� ���� ���̱� :0", "�̰��� ��Ȱ�� ���:0" });
-        talkData.Add(1000, new string[] { "�ƹ��͵� ������� �ʴ�.:0 " });
-        talkData.Add(2000, new string[] { "�� ĸ���̴�. :0 " });
+        talkData.Add(1000, new string[] { "잠겨있다.:0 " });
+        talkData.Add(2000, new string[] { " :0 " });
 
         //Quest
-        talkData.Add(10 + 100, new string[] { "���� ��ó�� �ִ� ���ڸ� �ѹ� Ȯ�� �غ��Գ�:0",
-            "������ ��� �������� ����:0", "���ڸ� Ȯ���ϰ� ������ ����:0" , " ��, �׸��� ���ڸ� �� �� �ִ� ���踦 �ְڳ�:0" });
-        talkData.Add(11 + 100, new string[] { "���ڸ� ã�� ���ߴ°�, :0", "��ó�� �ݵ�� �����״� �� ���캸�� :0" });
+        talkData.Add(10 + 100, new string[] { "자네 여기 근처에 상자를 보지 못했는가?:0",
+            "상자를 보았다면 안을 한번 확인해주게나:0" , "상자가 잠겨 있을테니 내 열쇠를 줌세:0" });
+        talkData.Add(11 + 100, new string[] { "상자를 아직 확인하지 못했는가 :0", "이 늙은이를 기다리게 하지말게 :0" });
 
-        talkData.Add(11 + 1000, new string[] { "������ ���� ȹ���ߴ�. :0 " });
+        talkData.Add(11 + 1000, new string[] { "낡은 시계를 획득했다. :0 " });
 
-        talkData.Add(20 + 100, new string[] { " ���� �Ҿ���� ���� �� ���ڿ� ����־���..:0", " ������ :0" });
+        talkData.Add(20 + 100, new string[] { " 잃어버렸었던 시계가 거기 있었군. :0 " , "고맙네 :0" });
 
 
         //portrait
