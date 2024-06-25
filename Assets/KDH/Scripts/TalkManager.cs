@@ -21,7 +21,7 @@ public class TalkManager : MonoBehaviour
         //talk
         talkData.Add(100, new string[] { "처음 보는 얼굴이군 :0", "이곳의 생활은 어떤가:0" });
         talkData.Add(1000, new string[] { "아무것도 들어있지 않다.:0 " });
-        talkData.Add(2000, new string[] { "누군가 사용한 흔적이 있는 캡슐이다. :0 " });
+        talkData.Add(2000, new string[] { "빈 캡슐이다. :0 " });
 
         //Quest
         talkData.Add(10 + 100, new string[] { "마을 근처에 있는 상자를 한번 확인 해보게나:0",
