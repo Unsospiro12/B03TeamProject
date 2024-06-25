@@ -19,16 +19,16 @@ public class TalkManager : MonoBehaviour
     private void ObjScriptsData()
     {
         //talk
-        talkData.Add(100, new string[] { "처음 보는 얼굴이군 :0", "이곳의 생활은 어떤가:0" });
-        talkData.Add(1000, new string[] { "아무것도 들어있지 않다.:0 " });
-        talkData.Add(2000, new string[] { "누군가 사용한 흔적이 있는 캡슐이다. :0 " });
+        //talkData.Add(100, new string[] { "처음 보는 얼굴이군 :0", "이곳의 생활은 어떤가:0" });
+        talkData.Add(1000, new string[] { "잠겨있다. :0 " });
+        //talkData.Add(2000, new string[] { "누군가 사용한 흔적이 있는 캡슐이다.:0 " });
 
         //Quest
         talkData.Add(10 + 100, new string[] { "마을 근처에 있는 상자를 한번 확인 해보게나:0",
-            "보물이 들어 있을지도 모르지:0", "상자를 확인하고 나한테 오게:0" });
+            "보물이 들어 있을지도 모르지:0", "상자를 확인하고 나한테 오게:0" , " 아, 그리고 상자를 열 수 있는 열쇠를 주겠네:0" });
         talkData.Add(11 + 100, new string[] { "상자를 찾지 못했는가, :0", "근처에 반드시 있을테니 잘 살펴보게 :0" });
 
-        talkData.Add(11 + 1000, new string[] { "기사의 검을 획득했다. :0 " });
+        talkData.Add(11 + 1000, new string[] { "예리한 검을 획득했다. :0 " });
 
         talkData.Add(20 + 100, new string[] { " 내가 잃어버린 검이 그 상자에 들어있었군..:0", " 고맙네 :0" });
 
