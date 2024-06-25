@@ -18,12 +18,12 @@ public class CharacterManager_KYJ : MonoBehaviour
         }
     }
 
-    public Player_KYJ Player
+    public KDHPlayer Player
     {
         get { return _player; }
         set { _player = value; }
     }
-    private Player_KYJ _player;
+    private KDHPlayer _player;
 
     private void Awake()
     {

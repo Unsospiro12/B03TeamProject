@@ -1,8 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KDHPlayer : MonoBehaviour
+public class KDHPlayer : PlayerController_KYJ
 {
     float x;
     float y;
@@ -11,16 +12,24 @@ public class KDHPlayer : MonoBehaviour
     Rigidbody2D rb;
     GameObject rayObject;
     SpriteRenderer spriter;
+
     public Animator anim;
+    public ItemData itemData;
+    public Action addItem;
+    public PlayerController_KYJ controller;
+
     bool isXMove;
 
     public ObjScan objScan;
 
     private void Awake()
     {
+        CharacterManager_KYJ.Instance.Player = this;
+
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriter = GetComponent<SpriteRenderer>();
+        controller = GetComponent<PlayerController_KYJ>();
     }
 
     void Update()
