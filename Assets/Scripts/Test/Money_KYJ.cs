@@ -8,6 +8,7 @@ public class Money_KYJ : MonoBehaviour
     public UIShop shopMoney;
 
     public GameObject openShopBtn;
+    public GameObject openInventory;
 
     public TextMeshProUGUI goldTxt;
 
@@ -42,5 +43,10 @@ public class Money_KYJ : MonoBehaviour
     {
         openShopBtn.SetActive(false);
         isCheck = false;
+    }
+
+    public void OnClickInventory()
+    {
+        openInventory.SetActive(true);
     }
 }
