@@ -22,6 +22,8 @@ public class UIShop : MonoBehaviour
 
     public GameObject inventoryList;
 
+    public TextMeshProUGUI goldTxt;
+
     ItemData listItem;
     UIInventory inventory;
     int listItemIndex = 0;
@@ -105,6 +107,7 @@ public class UIShop : MonoBehaviour
             gold -= listItem.buyPrice;
             CharacterManager_KYJ.Instance.Player.itemData = listItem;
             CharacterManager_KYJ.Instance.Player.addItem?.Invoke();
+            goldTxt.text = gold.ToString();
             Debug.Log("구매하였습니다." + gold);
         }
         else
