@@ -16,6 +16,7 @@ public class EnemyController : MonoBehaviour
     private float moveTimer = 0f;
     private float stopTimer = 0f;
     private bool isMoving = true;
+    private bool isDead = false;
     private Transform player;
     private Animator animator;
 
@@ -35,6 +36,8 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
+        if (isDead) return;
+
         if (player != null)
         {
             float distanceToPlayer = Vector3.Distance(player.position, transform.position);
