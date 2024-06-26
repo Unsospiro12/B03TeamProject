@@ -25609,9 +25609,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2068964688377719730}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: SoundMute
+        m_MethodName: ButtonOnOff
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -25621,9 +25621,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2068964688377719730}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: ButtonOnOff
+        m_MethodName: SoundMute
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -27112,8 +27112,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameMusic: {fileID: 8300000, guid: 6918c24d778741640a32c336ae767810, type: 3}
-  OnButton: {fileID: 0}
-  OffButton: {fileID: 0}
+  OnButton: {fileID: 5684182517090581373}
+  OffButton: {fileID: 9057668468366979542}
 --- !u!114 &2100682687412607432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29010,9 +29010,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2068964688377719730}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: SoundMute
+        m_MethodName: ButtonOnOff
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -29022,9 +29022,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2068964688377719730}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: ButtonOnOff
+        m_MethodName: SoundMute
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -34,13 +34,13 @@ public class SoundManager : MonoBehaviour
     {
         if (isMuted)
         {
-            OnButton.SetActive(false);
-            OffButton.SetActive(true);
+            OnButton.SetActive(true);
+            OffButton.SetActive(false);
         }
         else
         {
-            OnButton.SetActive(true);
-            OffButton.SetActive(false);
+            OnButton.SetActive(false);
+            OffButton.SetActive(true);
         }
     }
 
